@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+
+body {
+    background-color: #282828;
+}
+
+a {
+    color: #0099CC;
+    text-decoration: none;
+}
+
+.content {
+    padding-top: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+#bird_image {
+    max-width: auto;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
+}
+
+#new_image {
+    margin-top: 5px;
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+}
+#new_image:hover {
+    background-color: #008CBA;
+    color: white;
+}
